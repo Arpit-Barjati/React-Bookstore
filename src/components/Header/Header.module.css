@@ -1,0 +1,30 @@
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #E3DFFD, #C9EEFF);
+    height: 80px;
+    padding: 0 10px;
+}
+
+#titleDiv{
+    border: 2px dashed black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+#title{
+    color: #39C2D7;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: #39C2D7;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #222;
+}

@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.container > div {
+    flex-basis: 40%;
+    flex-shrink: 0;
+}
+
+.booksContainer{
+    border: 1px solid grey;
+    padding: 5px;
+    margin-bottom: 50px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.buttonContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.checkoutDetailsContainer{
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.checkoutDetailsContainer > h2{
+    margin-bottom: 10px;
+}
+
+.paymentInfoContainer > div{
+    display: flex;
+    justify-content: space-between;
+}
