@@ -1,0 +1,19 @@
+.ordersContainer > div{
+    display: flex;
+}
+
+.orderHeader{
+    background-image: linear-gradient(to right, #E3DFFD, #C9EEFF);
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.orderContent{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.ordersContainer{
+    border: 1px solid black;
+    margin: 10px 20px;
+}

@@ -1,0 +1,4 @@
+#shippingAddressForm {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,39 @@
+#container{
+    display: flex;
+    margin: 3%;
+}
+
+.bookContent{
+    padding: 0 20px;
+}
+
+.bookImage{
+    flex-basis: 25%;
+    flex-shrink: 0;
+}
+
+.bookImage > img{
+    width: 100%;
+}
+
+.buttonContainer{
+    display: flex;
+    column-gap: 10px;
+}
+
+button{
+    background-color: aliceblue;
+    border: 1px solid grey;
+    position: relative;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    top: 2px;
+}
